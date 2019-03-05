@@ -6,6 +6,7 @@
 #include <string.h>
 #include <stdint.h>
 #include <unistd.h>
+#include <sys/stat.h>
 
  //a small wrapper around the state we need to store to interact with getline(). 
 struct InputBuffer_t {
